@@ -1,0 +1,26 @@
+{
+    "name": "webmozart/path-util",
+    "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalil Floyd",
+            "email": "JalilSFloyd@gmail.com",
+            "homepage": "https://www.drupal.org/u/jalite1991",
+            "role": "Maintainer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuJour\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DuJour\\Test\\": "tests/"
+        }
+    }
+}
